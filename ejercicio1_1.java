@@ -13,12 +13,15 @@ public static void main(String[] args) {
     num2 = sc.nextInt();
 
 
+
     num3 = Sumar(num1,num2);
     System.out.println("El resultado es: " + num3);
 
     sc.close();
     
 }
+
+
 
 public static int Sumar(int a,int b){
     int resultado = a+b;

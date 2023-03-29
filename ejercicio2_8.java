@@ -19,36 +19,19 @@ public class ejercicio2_8 {
             rta = sc.nextInt();
         }while(rta<4);
 
-        for (int i=0; i<1; i++){
-           
+        for (int i=0; i<rta; i++){
+            System.out.print("*");
             for (int j=0; j<rta; j++){
-                System.out.print("* ");
-            }
-
-            System.out.println("");
-        }
-
-        
-        for (int i=1; i<rta-2; i++){
-           System.out.print("*");
-            for (int j=0; j<rta; j++){
-                System.out.print("  ");
+                if (i==0 || i==rta-1){
+                    System.out.print(" *");
+                }else{
+                    System.out.print("  ");
+                }
             }
             System.out.print(" *");
             System.out.println("");
+            
         }
-
-
-        for (int i=rta-1; i<rta+1; i++){
-        
-            for (int j=0; j<rta; j++){
-                System.out.print("* ");
-            }
-
-            System.out.println("");
-        }
-
-
 
     }
 }
