@@ -32,6 +32,6 @@ public class ejercicio2_8 {
             System.out.println("");
             
         }
-
+        sc.close();
     }
 }

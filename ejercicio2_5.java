@@ -31,5 +31,7 @@ public class ejercicio2_5 {
        }while(suma<=limite);
 
        System.out.println("...Finalizando....");
+
+       sc.close();
     }
 }

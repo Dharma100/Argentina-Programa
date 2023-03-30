@@ -27,7 +27,7 @@ public class ejercicio2_3 {
             }
 
             System.out.println("...cerrando sistema...");
-
-
+            
+    sc.close();
     }
 }

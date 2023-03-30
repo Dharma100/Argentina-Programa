@@ -26,6 +26,6 @@ public class ejercicio2_4 {
         }
 
         
-
+    sc.close();
     }
 }

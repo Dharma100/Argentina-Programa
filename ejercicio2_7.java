@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-import javax.sound.sampled.SourceDataLine;
+
 
 public class ejercicio2_7 {
     public static void main(String[] args) {
@@ -38,11 +38,11 @@ public class ejercicio2_7 {
         System.out.println("Se han cargado " + correctos + " códigos válidos");
         System.out.println("Se han hecho " + incorrectos + " intentos NO validos");
         System.out.println("=======================");
-    
-    
+
+        sc.close();
     }
 
-
+   
 
 
 }
