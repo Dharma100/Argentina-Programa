@@ -15,7 +15,7 @@ public class ejemplo_molde {
 
 
 
-
+        sc.close();
 
     } /// cierre del MAIN
 
@@ -26,11 +26,13 @@ public class ejemplo_molde {
 
     public static String leerEntrada() {
         Scanner sca = new Scanner(System.in);
+        sca.close();
         return sca.nextLine();
     }
     
     public static int leerNum() {
         Scanner sca = new Scanner(System.in);
+        sca.close();
         return sca.nextInt();
     }
 

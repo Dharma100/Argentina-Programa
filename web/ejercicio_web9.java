@@ -32,7 +32,7 @@ public class ejercicio_web9 {
              /// para descartar problema de linea en blanco
 
 
-            if (rta==1){ //////////// opcion 1 : llenar los datos
+            if (rta==1){    //////////// opcion 1 : llenar los datos
                 for (int i=0; i < cantidad; i++){
                     System.out.println("Ingrese el nombre de la " + (i+1) + "° materia");
                     materias[i] = leerEntrada().toUpperCase();
@@ -43,7 +43,7 @@ public class ejercicio_web9 {
             }
 
 
-            if (rta==2){ ///////////// opcion 2  :  mostrar los datos
+            if (rta==2){     ///////////// opcion 2 : mostrar los datos
                 if (lleno==false){
                     System.out.println("Aún no ha ingresado los datos...");
                 }else{
@@ -52,25 +52,29 @@ public class ejercicio_web9 {
                         System.out.println("");
                     }
                 }
-                
             }
-
         } /// cierra el while del menú
 
-    
         sc.close();
+    } /// cierra el Main
 
-    }
+
+
+///////////////////////////  sub-programas  //////////////////////////////////////
 
     public static String leerEntrada() {
         Scanner sca = new Scanner(System.in);
+        sca.close();
         return sca.nextLine();
     }
     
     public static int leerNum() {
         Scanner sca = new Scanner(System.in);
+        sca.close();
         return sca.nextInt();
+       
     }
-        
+////////////////////////////////////////////////////////////////////////////
     
-}
+
+} /// cierra clase Principal

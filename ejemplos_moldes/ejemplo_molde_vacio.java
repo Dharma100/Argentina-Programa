@@ -15,7 +15,7 @@ public class ejemplo_molde_vacio {
 
 
 
-
+        sc.close();
 
     } /// cierre del MAIN
 

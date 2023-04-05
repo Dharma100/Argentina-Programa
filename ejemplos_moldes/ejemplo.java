@@ -168,11 +168,13 @@ public static void main(String[] args) {
 /////////////////////////////   MÉTODOS  ////////////////////////
 public static String leerEntrada() {
     Scanner sca = new Scanner(System.in);
+    sca.close();
     return sca.nextLine();
 }
 
 public static int leerNum() {
     Scanner sca = new Scanner(System.in);
+    sca.close();
     return sca.nextInt();
 }
 
